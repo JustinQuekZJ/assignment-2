@@ -1,0 +1,100 @@
+.container-1 {
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 50px; /* Optional: Add padding to the sides */
+}
+
+.container-2 {
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 50px; /* Optional: Add padding to the sides */
+}
+
+.container-3 {
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 50px; /* Optional: Add padding to the sides */
+    margin-bottom: 50px;
+}
+
+.container-4 {
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 50px; /* Optional: Add padding to the sides */
+}
+
+.container-5 {
+    max-width: 1500px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 50px; /* Optional: Add padding to the sides */
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.column:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.column img {
+    max-width: 100%; /* Ensures the image scales down if it's larger than its container */
+    height: auto; /* Allows the image to maintain its aspect ratio */
+    width: 200px; /* Set the width to your desired size */
+    height: auto; /* Allow the image to scale proportionally */
+}
+
+.introduction {
+    font-size: large;
+    margin-bottom: 40px;
+}
+
+.column-2 {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.column-2 img {
+    max-width: 100%;
+    max-height: auto; /* Add max-height to maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.column-2 .mineral-info {
+    position: relative;
+    overflow: hidden; /* Hide overflow content */
+    max-width: 100%; /* Ensure paragraph doesn't extend beyond column width */
+}
+
+.cool-fact {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.column-2:hover .cool-fact {
+    display: block;
+}
